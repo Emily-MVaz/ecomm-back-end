@@ -11,14 +11,14 @@ Category.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
-      autoIncrement: true
+      autoIncrement: true,
     },
 
     // category_name column
     category_name: {
       type: DataTypes.STRING,
-      allowNull: false
-    }
+      allowNull: false,
+    },
   },
   {
     sequelize,
@@ -32,7 +32,7 @@ Category.init(
 module.exports = Category;
 
 // Category
-//  id 
+//  id
 //    Integer.
 //    Doesn't allow null values.
 //    Set as primary key.
