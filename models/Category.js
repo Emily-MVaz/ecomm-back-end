@@ -37,6 +37,7 @@ module.exports = Category;
 //    Doesn't allow null values.
 //    Set as primary key.
 //    Uses auto increment.
+
 //  category_name
 //    String.
 //    Doesn't allow null values.
